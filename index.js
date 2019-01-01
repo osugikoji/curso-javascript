@@ -1,9 +1,7 @@
-window.addEventListener('focus', event => {
+let ciaAereas = ['gol','tam','varing'];
 
-    console.log('focus');
-})
+ciaAereas.forEach(function(value,index){
 
-document.addEventListener('click', event => {
+    console.log(value,index);
 
-    console.log('click');
-})
+});
