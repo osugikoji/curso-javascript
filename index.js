@@ -1,8 +1,9 @@
-let n = 5;
+function calc(x1, x2, operator) {
 
-for (let i = 0; i <=10; i++) {
+    return eval(`${x1} ${operator} ${x2}`); //Funcao eval: Pega uma String e o interpreta
 
-    console.log(`${i} X ${n} = ${i*n}`);
-
-    //console.log(i + ' X ' + n + ' = ' + (i*n));
 }
+
+let resultado = calc(1, 2, '+');
+
+console.log(resultado);
