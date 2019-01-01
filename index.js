@@ -1,7 +1,13 @@
-let ciaAereas = ['gol','tam','varing'];
+let celular = function() {
 
-ciaAereas.forEach(function(value,index){
+    this.cor = 'prata';
 
-    console.log(value,index);
+    this.ligar = function () {
 
-});
+        console.log('uma ligacao');
+    }
+}
+
+let objeto = new celular();
+
+console.log(objeto.ligar());
