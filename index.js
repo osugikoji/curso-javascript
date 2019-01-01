@@ -1,11 +1,13 @@
-let celular = function() {
+class celular {
 
-    this.cor = 'prata';
-
-    this.ligar = function () {
-
-        console.log('uma ligacao');
+    constructor() {
+        this.cor = 'prata';
     }
+
+    ligar() {
+        console.log('ligando');
+    }
+
 }
 
 let objeto = new celular();
